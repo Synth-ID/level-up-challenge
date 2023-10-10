@@ -11,7 +11,9 @@
     <Navbar />
 </header>
 
-<slot />
+<main>
+    <slot />
+</main>
 
 <style lang="postcss">
     :global(body) {
