@@ -13,7 +13,7 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
-		"deploy": "pnpm build && pnpx gh-pages -d build -t true"
+		"gh-pages": "pnpm build && pnpx gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@iconify/svelte": "^3.1.4",
