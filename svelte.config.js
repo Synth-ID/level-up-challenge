@@ -9,6 +9,9 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter()
 	},
+	paths: {
+		base: process.env.NODE_ENV === "production" ? "/level-up-challenge" : "",
+	},
 	// Use `vitePreprocess` to enable processing `<style>` blocks as PostCSS.
 	// See https://tailwindcss.com/docs/guides/sveltekit
 	preprocess: vitePreprocess()
