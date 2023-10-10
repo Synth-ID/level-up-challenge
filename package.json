@@ -8,11 +8,12 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"test": "npm run test:integration && npm run test:unit",
+		"test": "pnpm run test:integration && pnpm run test:unit",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest",
+		"deploy": "pnpm build && pnpx gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@iconify/svelte": "^3.1.4",
