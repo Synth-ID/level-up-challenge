@@ -1,8 +1,8 @@
 <script>
     import "../app.css";
-    import "@fontsource/open-sans";
+    import "@fontsource-variable/open-sans";
     import "@fontsource/poppins";
-    import "@fontsource/inter";
+    import "@fontsource-variable/inter";
 </script>
 
 <slot />

@@ -8,12 +8,12 @@ overrides:
   svelte-chartjs>svelte: ^4.0.0
 
 dependencies:
-  '@fontsource/inter':
+  '@fontsource-variable/inter':
     specifier: ^5.0.13
     version: 5.0.13
-  '@fontsource/open-sans':
-    specifier: ^5.0.15
-    version: 5.0.15
+  '@fontsource-variable/open-sans':
+    specifier: ^5.0.16
+    version: 5.0.16
   '@fontsource/poppins':
     specifier: ^5.0.8
     version: 5.0.8
@@ -337,12 +337,12 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@fontsource/inter@5.0.13:
-    resolution: {integrity: sha512-FVIBhP9X/x02blF2VQl2Pji/c3jUjkWEQ9bom4vIrGwO1MlHRDXhXx9iA1hhjpcCIfH3oX68ihIBdYcFnOXhsg==}
+  /@fontsource-variable/inter@5.0.13:
+    resolution: {integrity: sha512-mb2WyZ2rHeqIG8aqGJIvLBOmo4sg2x7SHlsE6PUhwxbOicVzO59EZwSGtzNO3FmchuDPFVAxzcXYcR5B6jE6Qw==}
     dev: false
 
-  /@fontsource/open-sans@5.0.15:
-    resolution: {integrity: sha512-gnvxTADG72CWWN57//x5leVJqQthgkhHao3/dK6wkn5wO7uTLYpiViLfUJYeV274juC73EvGQnc/3Y+9IEST2A==}
+  /@fontsource-variable/open-sans@5.0.16:
+    resolution: {integrity: sha512-XDGTjQ+4gktH4g8lqzJ7XuvC77CtXYhPu6MZxjtU5ZTijBuelPd4ES0OSCLobK95SpQrI77lqrJGqjZBQHE05A==}
     dev: false
 
   /@fontsource/poppins@5.0.8:
