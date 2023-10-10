@@ -1,22 +1,22 @@
 <script>
-    import "../app.css";
-    import "@fontsource-variable/open-sans";
-    import "@fontsource/poppins";
-    import "@fontsource-variable/inter";
+	import '../app.css';
+	import '@fontsource-variable/open-sans';
+	import '@fontsource/poppins';
+	import '@fontsource-variable/inter';
 
-    import Navbar from "$lib/Navbar.svelte"
+	import Navbar from '$lib/Navbar.svelte';
 </script>
 
 <header>
-    <Navbar />
+	<Navbar />
 </header>
 
 <main>
-    <slot />
+	<slot />
 </main>
 
 <style lang="postcss">
-    :global(body) {
-        @apply w-full min-h-screen font-landing
-    }
+	:global(body) {
+		@apply w-full min-h-screen font-landing;
+	}
 </style>
