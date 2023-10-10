@@ -6,7 +6,7 @@
     <div class="flex justify-between max-w-screen-xl mx-auto">
         <div class="flex items-center space-x-32">
             <a href="/">
-                <img src="/favicon.svg" alt="Column9 Logo" height={24}>
+                <img src="./favicon.svg" alt="Column9 Logo" height={24}>
             </a>
             <div class="flex space-x-12 font-semibold">
                 <a href="/">Home</a>
