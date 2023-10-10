@@ -17,6 +17,6 @@
 
 <style lang="postcss">
     :global(body) {
-        @apply w-screen min-h-screen font-landing
+        @apply w-full min-h-screen font-landing
     }
 </style>
