@@ -6,3 +6,9 @@
 </script>
 
 <slot />
+
+<style lang="postcss">
+    :global(body) {
+        @apply w-screen min-h-screen
+    }
+</style>
